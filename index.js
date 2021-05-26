@@ -1,9 +1,13 @@
-import confetti from 'canvas-confetti'
-import $ from 'blingblingjs'
+import gsap from 'gsap';
 
-confetti.create(null, {
-  resize: true,
-  useWorker: true,
-})({ particleCount: 200, spread: 200 })
+console.log("test");
 
-console?.log('ready.')
+const el = document.getElementById("box");
+
+gsap.set(el, {
+  width: "200px",
+  height: "200px",
+  backgroundColor: "#FF7732"
+})
+
+gsap.to(el, {y:500, duration:5})

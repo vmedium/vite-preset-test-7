@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "blingblingjs": "2.x",
-    "canvas-confetti": "^1.3.3"
+    "canvas-confetti": "^1.3.3",
+    "gsap": "^3.6.1"
   },
   "devDependencies": {
     "postcss-easings": "3.x",
